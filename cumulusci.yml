@@ -1,0 +1,13 @@
+project:
+    name: Cci Project
+    package:
+        name:  Cci Package
+        api_version: '42'
+
+    git: 
+        default_branch: 'Y' 
+        prefix_feature: 'Y' 
+        prefix_beta: 'N' 
+        prefix_release: 'N'
+    test:
+        name_match: 'Test'
